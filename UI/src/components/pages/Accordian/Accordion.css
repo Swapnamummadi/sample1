@@ -1,0 +1,185 @@
+
+.accordionContainer{
+
+    display: grid;
+    height: 160vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.accordionContainer h3{
+
+    margin-top: 10px;
+}
+.accordion{
+    width: 1000px;
+    margin-top: 10px;
+    
+}
+.item{
+    margin-bottom: 5px;
+}
+.title:hover{
+    background-color: rgba(190, 182, 182, 0.432);
+}
+
+.title{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    /* font-weight: lighter; */
+    font-size: 23px;
+    background-color: rgb(45,45,45);
+    padding: 25px 20px;
+    
+}
+
+.contentHide{
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    /* transition: all 0.5s cubic-bezier(0,1,0,1); */
+    /* font-size: 20px; */
+}
+.contentShow{
+    color: white;
+    margin-top: 1px;
+    height: auto;
+    max-height: 9999px;
+    /* transition: all 0.5s cubic-bezier(1,0,1,0); */
+    font-size: 23px;
+    background-color: rgb(45,45,45);
+    padding: 10px 20px;
+    line-height: 1.2;
+
+    
+}
+
+.accordioncontent{
+    color: white;
+}
+
+.accordion h3{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    /* padding-bottom: 2px; */
+    /* padding-top: 3px; */
+}
+span{
+
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.tosignup{
+
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:1100px){
+    
+    .accordion{
+        width: 980px;
+        
+    }
+   
+}
+
+@media screen and (max-width:1060px) {
+    
+    .accordion{
+
+        width: 899px;
+    }
+    .accordion h3{
+        font-size: 30px;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .contentShow{
+
+        font-size: 18px;
+    }
+    .contentHide{
+
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    
+    
+    .accordion{
+
+        width: 700px;
+    }
+    .accordionContainer{
+
+        height: 140vh;
+    }
+}
+@media screen and (max-width: 780px) {
+
+    .accordionContainer{
+        height: 120vh;
+    }
+    .accordion{
+        width: 600px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .accordionContainer{
+
+        height: 120vh;
+    }
+    .accordion{
+        width: 90%;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    
+    .accordionContainer{
+
+        height: 140vh;
+    }
+    .accordion{
+
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    
+    .accordionContainer{
+        height: 120vh;
+    }
+    .accordion{
+        width: 65%;
+    }
+    .accordion h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .item{
+        margin-left: 50px;
+        
+    }
+
+    .title{
+
+        font-size: 10px;
+    }
+}

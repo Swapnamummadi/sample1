@@ -1,0 +1,72 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(255, 255, 255, 0.63); */
+    /* background-color: rgba(236, 234, 234, 0.904); */
+}
+
+/* .HeaderLogo{
+
+    padding-left: 30px;
+    padding-top: 30px;
+} */
+.netflix-svg2{
+    width: 170px;
+    fill: #e50914;
+
+}
+
+.HeaderForRegestration{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 60px;
+    /* border: 1px solid red; */
+    border-radius: 3px;
+    background-color: white;
+}
+
+.ButtonForSignIn a{
+    
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+
+}
+.ButtonForSignIn span{
+    font-weight: 550;
+
+}
+
+@media screen and (max-width:501px) {
+ 
+    .netflix-svg2{
+        width: 75px;
+        padding-top: 10px;
+    
+    }
+    .HeaderForRegestration{
+
+        padding-top: 4px;
+        padding-left: 15px;
+        padding-bottom: 3px;
+        padding-right: 8px;
+        height: 35px;
+    }
+
+    .ButtonForSignIn a{
+    
+        font-size: 14px;
+        color: black;
+       
+        
+    }
+    
+
+   
+    
+}

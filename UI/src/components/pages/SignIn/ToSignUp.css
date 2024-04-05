@@ -1,0 +1,95 @@
+body{
+    padding:0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.SignUp-Container{
+    display:flex;
+    flex-direction: column;
+    margin-top: 0;
+    /* border:2px solid red; */
+}
+.SignUp-ContainerButtons{
+    display:flex;
+    /* border:2px solid red; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:8px;
+}
+.signUpEmail{
+    padding:20px 16px;
+    width:350px;
+    height:16px;
+    background-color: rgba(70, 69, 69, 0.2);
+    border:0.5px solid #666666;
+    border-radius: 4px;
+    color:white;
+    font-size: 20px;
+}
+.signUpEmail::placeholder{
+    font-size: 17px;
+    padding-top: 50px;
+    color:#c1c1c1;
+}
+.signUpStart{
+    width:210px;
+    height:56px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 24px;
+    background-color: #e50914;
+}
+
+
+.SignUpContent{
+    font-weight: 400;
+    font-size: 20px;
+    color:white;
+    /* line-height: 20px; */
+    margin-top: 70px;
+    
+}
+
+/* style={{color:'red',fontSize:'16px', textAlign:'justify'}}  */
+.ErrorStyling{
+
+    color: red;
+    font-size: 14px;
+    /* text-align: left; */
+    padding-right: 38%;
+
+}
+
+@media only screen and (max-width:700px){
+    .signUpStart{
+        width:150px;
+        padding: 12px 15px;
+        font-size: 15px;
+    }
+}
+
+@media only  screen and (min-width:300px) and (max-width:600px){
+    .SignUp-ContainerButtons{
+        flex-direction: column;
+        justify-content: center;      
+    }
+   
+    .emailContainer{
+        width:100%;
+    }
+    .signUpEmail{
+        width:80%;
+    }
+    .signUpStart{
+        width:150px;
+        padding: 12px 15px;
+        font-size: 10px;
+    }
+    .SignUpContent{
+
+        margin-top: 10px;
+    }
+
+}
+
+

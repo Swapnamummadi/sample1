@@ -1,0 +1,392 @@
+
+#GenreListStyle {
+    position: fixed;
+    top: 70px;
+    /* left: 3em; */
+    padding-left: 3em;
+
+    width: 100%;
+    height: 100px; /* Adjust the height as needed */
+   
+    z-index: 4; 
+    color: white;
+    /* padding-top: 0; */
+    margin-top: 0;
+    
+  }
+  .genresList a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  }
+
+.discoverTvCont{
+    display: flex;
+    /* align-items: center; */
+
+    padding-right: 60px;
+    position: relative;
+    top: 0;
+    justify-content: space-between;
+}
+.genresbox{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 2rem;
+    /* margin-top: 1em; */
+    /* padding-left: 0; */
+}
+
+.genres1{
+    border: 1px solid whitesmoke;
+    width: 90px;
+    color: white;
+    /* background:black; */
+    padding: 3px 5px;
+    position: relative;
+    top: 2em;
+    /* margin-top: 10em; */
+    /* margin-top: ; */
+    /* height: 30px; */
+    font-size: 18px;
+
+}
+
+.genres1:hover{
+    cursor: pointer;
+    background-color: rgba(53, 53, 53, 0.8);
+    /* background-color: rgba(0,0,0,.68); */
+}
+
+.genresList li:hover{
+    text-decoration: underline;
+    /* background-color: rgba(0,0,0,.68); */
+}
+.upArrow{
+    padding-left: 20px;
+}
+.genresList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    top: 76.5%;
+    background:rgba(0,0,0,.68);
+    width: 450px;
+    height: 300px;
+    z-index: 2;
+    /* padding-left: 10px; */
+    display: none;
+
+}
+
+
+.genresList li{
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    list-style-type: none;
+    /* line-height: 3px; */
+}
+
+
+ 
+#GenreListStyle.search {
+    display: flex;
+    
+} 
+
+
+.h1style{
+    font-size: 40px;
+}
+.h11{
+    cursor: pointer;
+    font-size: 40px;
+    /* padding-top: 1em; */
+    color: rgba(255, 255, 255, .8);
+}
+
+ 
+.itemstosearch{
+    padding-top: 0;
+    /* padding-right: 5em; */
+    margin-right: 7.2em;
+    /* border: 2px solid white; */
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    margin-top: 2em;
+    height: 30px;
+   /* height: 0px; */
+    border: 1px solid white;
+    
+      cursor: pointer;
+      background-color: transparent;
+  }
+  
+  
+  .sv22 .button1{
+     
+      border-top:none;
+      border-bottom: none;
+      border-left: none;
+      margin-top: 0;
+     background-color: transparent;
+     border-right: 1px solid white;
+  }
+  
+ 
+  .sv33 .input {
+      width: 0px;
+      text-align: center;
+      background: transparent;
+      outline: none;
+      border: none;
+      /* padding-left: 10px; */
+      /* z-index: -10; */
+      transition: .4s;
+      /* padding-right: 0; */
+      margin-right: 0;
+  }
+  
+  .sv33 .extend {
+      width: 250px;
+      padding-left: 35px;
+      transition: .5s;
+      background: transparent;
+      border: 1px solid white;
+      color: white;
+      outline: none;
+      border: none;
+      background-color: transparent;
+
+  }
+  
+  
+  .sv33 .button2{
+      background-color: transparent;
+      border: none;
+      z-index: 1;
+      text-align: center;
+      margin-top: 0;
+      color: white;
+    
+              
+  }
+  .sv3{
+      /* padding-top: 8px; */
+      /* padding-left: 5px; */
+      padding: 8px 4px;
+      width: 30px;
+      /* font-size: 10px; */
+  }
+  .sv2{
+      font-size: 20px;
+      /* background-color: transparent; */
+      /* border-right: 1px solid white; */
+      
+      color: white;
+      padding-top: 4px;
+      width: 30px;
+      padding-right: 10px;
+      
+      /* margin-right: 10px; */
+  }
+  
+  .sv33 select option{
+      background-color: black;
+      color: white;
+  }
+  /* .itemstosearch svg{ */
+  
+    /* padding-right: 2px; */
+    /* margin-right: 2px; */
+    /* border: 1px solid white;
+    padding: 5px 10px;
+    
+  } */
+  
+  /* .sv2:hover{ */
+      /* border-width: 100px; */
+      /* border-width: 2px 100px; */
+      /* background-color: black; */
+      /* color: white; */
+      /* float: inline-start; */
+  /* } */
+  
+@media (min-width:960px) and (max-width:1067px){
+
+    .h1style{
+        font-size: 30px;
+    }
+
+    .h11{
+        font-size: 30px;
+    }
+   .genres1{
+    top: 1em;
+    font-size: 13px;
+   }
+}
+
+@media (min-width:560px) and (max-width:960px){
+
+    .itemstosearch{
+        display: none;
+    }
+    .discoverTvCont{
+        display: none;
+    }
+    .h1style{
+        font-size: 20px;
+        padding-top: 1.5em;
+    }
+
+    .h11{
+        font-size: 20px;
+        padding-top: 1.3em;
+    }
+
+    
+.genres1{
+    border: 1px solid whitesmoke;
+    width: 70px;
+    color: white;
+    font-size: 13px;
+
+}
+
+
+.itemstosearch{
+    padding-top: 0;
+    margin-right: 5em;
+    height: 30px;
+  }
+  
+  
+  .sv22 .button1{
+     
+      border-top:none;
+      border-bottom: none;
+      border-left: none;
+      margin-top: 0;
+     background-color: transparent;
+     border-right: 1px solid white;
+  }
+  
+  .sv33 .input {
+      width: 0px;
+      text-align: center;
+      background: transparent;
+      outline: none;
+      border: none;
+      /* padding-left: 10px; */
+      /* z-index: -10; */
+      transition: .4s;
+      /* padding-right: 0; */
+      margin-right: 0;
+  }
+  
+  .sv33 .extend {
+      width: 250px;
+      padding-left: 35px;
+      transition: .5s;
+      background: transparent;
+      border: 1px solid white;
+      color: white;
+      outline: none;
+      border: none;
+      background-color: transparent;
+  }
+  
+  
+  .sv33 .button2{
+      background-color: transparent;
+      border: none;
+      z-index: 1;
+      text-align: center;
+      margin-top: 0;
+      /* font-size: 25px; */
+      color: white;
+    
+              
+  }
+  .sv3{
+      padding: 8px 4px;
+      width: 20px;
+  }
+  .sv2{
+      font-size: 20px;
+      color: white;
+      padding-top: 4px;
+      width: 20px;
+      padding-right: 10px;
+      
+  }
+  
+  .sv33 select option{
+      background-color: black;
+      color: white;
+  }
+
+  
+}
+
+
+@media (max-width:560px){
+
+    .itemstosearch{
+        display: none;
+    }
+    .discoverTvCont{
+        display: none;
+    }
+    .h1style{
+        font-size: 20px;
+        padding-top: 1.5em;
+        padding-left: 0;
+    }
+
+    .h11{
+        font-size: 20px;
+        padding-top: 1.3em;
+        
+    }
+
+    
+.genres1{
+    border: 1px solid whitesmoke;
+    width: 70px;
+    color: white;
+    font-size: 13px;
+
+}
+
+
+.itemstosearch{
+    padding-top: 0;
+    margin-right: 5em;
+    height: 30px;
+  }
+  
+ 
+  
+  .sv33 .extend {
+      width: 150px;
+      padding-left: 35px;
+  }
+  
+  
+  .sv33 .button2{
+      background-color: transparent;
+      border: none;
+      z-index: 1;
+      text-align: center;
+      margin-top: 0;
+      /* font-size: 25px; */
+      color: white;
+    
+              
+  }
+ 
+}

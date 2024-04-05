@@ -1,0 +1,124 @@
+
+.SliderContainer{
+   
+    position: relative;
+   
+
+}
+
+
+
+.SliderContainer h3{
+
+    padding-left: 50px;
+}
+.slider-for-card{
+    height: auto;
+    z-index: 1000;
+    
+}
+
+.Wrapper{
+    position: relative;
+    /* display: inline; */
+
+    /* padding-left: 50px; */
+}
+.flex{
+    display: flex;
+    width: max-content;
+    /* max-width: fit-content; */
+    gap: 0.3rem;
+    padding-left: 50px;
+}
+.SliderContainer h3{
+    /* padding-top: 470px; */
+    color: white;
+    
+}
+.sliderActions{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+.slider-action{
+
+    position: absolute;
+    top: 50px;
+       
+}
+    .right{
+
+    position: absolute;
+    right: 0;  
+    
+}
+
+.svg1::before{
+
+    color: transparent;
+    
+}
+
+.svg1:hover{
+
+    color: white;
+    font-size: 40px;
+}
+
+@media (min-width:961px) and (max-width:1067px){
+    .flex{
+        gap: 0.7rem;
+    }
+
+    
+}
+
+@media (min-width:760px) and (max-width:960px){
+    .flex{
+        padding-left: 30px;
+        gap: 0.2rem;
+        
+    }
+    .slider-for-card{
+        margin-top: 5em;
+        
+    }
+    
+    .SliderContainer h3{
+        padding-left: 30px;
+    }
+}
+@media (min-width:480px) and (max-width:760px){
+
+    .flex{
+        padding-left: 10px;
+        padding-right: -40em;
+        gap: 0.2rem;
+
+    }
+    .slider-for-card{
+        margin-top: 5em;
+    }
+    .SliderContainer h3{
+
+        padding-left: 10px;
+        gap: 3rem;
+    }   
+}
+
+@media (max-width:480px){
+    .flex{
+        padding-left: 10px;
+        padding-right: -40em;
+    }
+    .slider-for-card{
+        margin-top: 5em;
+    }
+    .SliderContainer h3{
+
+        padding-left: 10px;
+    }   
+}

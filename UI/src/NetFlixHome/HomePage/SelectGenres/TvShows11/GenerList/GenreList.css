@@ -1,0 +1,130 @@
+
+.genresbox{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+}
+.genres1{
+    border: 1px solid whitesmoke;
+    width: 90px;
+    color: white;
+    /* background:black; */
+    padding: 5px;
+    position: relative;
+}
+.genres1:hover{
+    cursor: pointer;
+    background-color: rgba(53, 53, 53, 0.8);
+    /* background-color: rgba(0,0,0,.68); */
+}
+.genresList li{
+    color: white;
+    size: 14px;
+    cursor: pointer;
+}
+.genresList li:hover{
+    text-decoration: underline;
+    /* background-color: rgba(0,0,0,.68); */
+}
+.upArrow{
+    padding-left: 20px;
+}
+.genresList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    top: 76.5%;
+    background:rgba(0,0,0,.68);
+    width: 450px;
+    height: 300px;
+    z-index: 2;
+    padding-left: 10px;
+    display: none;
+
+
+}
+
+
+
+#GenreListStyle.search {
+    display: flex;
+    
+
+}
+
+
+#GenreListStyle .flitericons{
+    border: 2px solid white;
+}
+
+#GenreListStyle .flitericons button{
+    color: white;
+    background-color: transparent;
+    padding: 2px 5px;
+}
+#GenreListStyle .flitericons .button1{
+   
+    border:none ;
+    margin-top: -5px;
+   
+}
+#GenreListStyle  .search .input {
+    width: 0px;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    border: none;
+    /* padding-left: 10px; */
+    /* z-index: -10; */
+    transition: .4s;
+}
+
+#GenreListStyle .search .extend {
+    width: 250px;
+    padding-left: 35px;
+    transition: .5s;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+/* #GenreListStyle .search select{
+    border: none;
+
+} */
+
+
+#GenreListStyle .search .button2{
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+    text-align: center;
+    /* padding-right: 5px; */
+    /* margin-right: -32px; */
+    margin-top: -2px;
+    /* font-size: 25px; */
+    color: white;  
+    border-left-width: 2px; 
+    border-left-style: solid;
+    border-left-color: white;
+
+}
+
+/* #GenreListStyle .search button:active {
+    font-size: 26px;
+} */
+
+
+/* ---media Queries----- */
+
+/* @media(max-width:960px){
+    #GenreListStyle{
+        top: 50px;
+    }
+
+} */
+
+

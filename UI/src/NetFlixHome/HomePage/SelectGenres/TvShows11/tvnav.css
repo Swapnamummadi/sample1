@@ -1,0 +1,1432 @@
+
+
+.NavbarContainer21111{
+
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    height: 90px;
+    top: 0;
+    transition:0.3s ease;
+    padding-top: 3em;
+    padding-left: 3em;
+    
+  }
+  
+  .genrebackground{
+
+    background-color: #141414;
+  }
+  .navbarcontainer111{
+  
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 100;
+  }
+  
+  .navName111{
+      display: flex;
+  }
+  
+  .genres3111{
+  
+      padding-top: 2.5em;
+      /* margin-left: 40px; */
+      padding-left: 40px;
+  }
+  .navbar-bg111{
+    background-color: #141414; 
+    /* z-index: 10; */
+  }
+  
+  .menucomponent111{
+  
+    display: none;
+  }
+  
+  .NavbarSection111{
+  
+    display: grid;
+    grid-template-columns: repeat(3,0.2fr);
+    /* gap: 1em; */
+    gap: 0;
+    
+  }
+  .navbarsection21111{
+  
+    display: flex;
+    justify-content: space-between;
+  }
+  .tvs{
+    
+    color: white;
+    font-size: 38px;
+    /* font-family: 'Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif'; */
+  }
+  .itemstosearch111{
+    padding-top: 0;
+    /* padding-right: 5em; */
+    margin-right: 7.2em;
+    /* border: 2px solid white; */
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    margin-top: 2em;
+    height: 30px;
+   /* height: 0px; */
+    border: 1px solid white;
+    
+    /* font-size: 12px; */
+    /* background-color: #141414; */
+      cursor: pointer;
+      background-color: transparent;
+  }
+  
+  /* .sv33{
+      font-size: 20px;
+      border-left: white;
+      border-left-color: white;
+      border-left-width: 1px;
+      border: 1px solid white; */
+  /* } */
+   /* .flitericons{
+      border: 2px solid white;
+  }  */
+  
+  .flitericons111 button{
+      color: white;
+      background-color: transparent;
+      padding: 2px 5px;
+  }
+  
+  
+  
+  .sv22111 .button1111{
+     
+      border-top:none;
+      border-bottom: none;
+      border-left: none;
+      margin-top: 0;
+      /* font-size: 5px */
+     /* border-right-color: white;
+     border-right-width: 1px; */
+     background-color: transparent;
+     border-right: 1px solid white;
+  }
+  
+  /* .sv33{ */
+  
+      /* border: 1px solid red; */
+      /* border-left-width: 2px;  */
+      /* border-left-color: red; */
+  /* } */
+  .sv33111 .input111 {
+      width: 0px;
+      text-align: center;
+      background: transparent;
+      outline: none;
+      border: none;
+      /* padding-left: 10px; */
+      /* z-index: -10; */
+      transition: .4s;
+      /* padding-right: 0; */
+      margin-right: 0;
+  }
+  
+  .sv33111 .extend111 {
+      width: 250px;
+      padding-left: 35px;
+      transition: .5s;
+      background: transparent;
+      border: 1px solid white;
+      color: white;
+      outline: none;
+      border: none;
+      background-color: transparent;
+  }
+  
+  
+  .sv33111 .button2111{
+      background-color: transparent;
+      border: none;
+      z-index: 1;
+      text-align: center;
+      /* padding-right: 5px; */
+      /* margin-right: -32px; */
+      margin-top: 0;
+      /* font-size: 25px; */
+      color: white;
+      /* padding-bottom: 10px;   */
+      /* border-left-width: 2px; 
+      border-left-style: solid;
+      border-left-color: white; */
+      
+  }
+  .sv3111{
+      /* padding-top: 8px; */
+      /* padding-left: 5px; */
+      padding: 8px 4px;
+  }
+  .sv2111{
+      font-size: 20px;
+      /* background-color: transparent; */
+      /* border-right: 1px solid white; */
+      
+      color: white;
+      padding-top: 4px;
+      width: 20px;
+      padding-right: 10px;
+      
+      /* margin-right: 10px; */
+  }
+  /* .sv33 select{
+      background-color: transparent;
+      padding-bottom: 10px;
+  } */
+  
+  .sv33111 select option{
+      background-color: black;
+      color: white;
+  }
+ 
+  .movies_container111 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 0 20px; /* Add horizontal padding to the container */
+  }
+  
+  .search-results111 {
+      width: 100%; /* Ensure the search results occupy the full width */
+  }
+  
+  .search-results111 ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .search-results111 ul li {
+      flex: 0 0 calc(33.33% - 20px); /* Set width for each TV show card (adjust as needed) */
+      margin-bottom: 20px; /* Adjust margin as needed */
+      box-sizing: border-box;
+  }
+  
+  .search-results111 ul li:last-child {
+      margin-right: 0; /* Remove right margin for the last TV show card in each row */
+  }
+  
+  .navbar-logo111{
+
+    width: 150px;
+  }
+  
+  .left-position111{
+  
+      width: 130px;
+      transform: translateX(-100%);
+      transition: transform 0.6s ease-in;
+  }
+  
+  
+  .account2111{
+  
+    width: 100px;
+  }
+  .account2part2111{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.213);
+    z-index: 1;
+    border-top: 1px solid black;
+    color: white;
+    /* width: 100px; */
+    
+  }
+  .account2part2111 span{
+  
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    width: 100px;
+    padding-top: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-left: 15px;
+  
+  }
+  
+  .account2part1111:hover .account2part2111{
+    display: block;
+  }
+  /* .account2part2 */
+  .account2part1111{
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+  .account2part1111:after{
+    content: "";
+    position: absolute;
+    right: -16px;
+    top: 70%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+  }
+  .account2part1111:hover::after{
+  
+    border-color: transparent transparent white transparent ;
+    margin-top: -10px;
+  }
+  
+  
+  
+  .netflix-svgNav111{
+    fill: #e50914;
+    font-size: 17.0932px;
+    width: 100px;
+    padding-top: 25px;
+    padding-left: 50px;
+    cursor: pointer;
+  
+  }
+  
+  .navbarSection2111{
+  
+    width: 850px;
+    /* border: 1px solid green; */
+    display: flex;
+    
+  }
+  
+  .ListItems111{
+  
+    display: flex;
+    padding-top: 15px;
+    font-size: 14px;
+    padding-left: 30px;
+    color: white;
+  
+  }
+  
+  
+  
+  .ListItems111 li{
+  
+    list-style-type: none;
+    padding-right: 30px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .ListItems111 li a{
+    text-decoration: none;
+    color: white;
+  }
+  .ListItems111 li:hover{
+    color: #b3b3b3;
+    
+  }
+  
+  .NavbarSection3111{
+  
+    display: flex;
+    padding-top: 20px;
+    color: white;
+    width: 290px;
+    /* border: 1px solid blue; */
+    justify-content: end;
+    /* margin-right: ; */
+  }
+  
+  .childrenpagelink111 span{
+  
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .childrenpagelink1111 span{
+  
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    display: none;
+  }
+  .browse111{
+    color: white;
+    /* width: 200px; */
+    border: 1px solid red;
+  }
+  .browsePart1111{
+    color: #e50914;
+    /* padding-top: 30px; */
+    /* margin-top: 30px; */
+  }
+  .items111 li{
+    display: none;
+    
+  }
+  
+  
+  .notificationBell111{
+  
+    padding-right: 30px;
+  }
+  
+  .notificationBell111 i{
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  .dropdownProfile111{
+    margin-right: 0;
+    background-color: transparent;
+    border: none;
+    width: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+  }
+  
+  .dropdownProfile111 img{
+    border-radius: 3px;
+    
+  }
+  
+  .dropdownProfile111 option{
+    background-color: white;
+    color: black;
+    
+  }
+  .fs-text-1111{
+    display: none;
+  }
+  
+  .logout111{
+    font-size: 14px;
+    color: white;
+  }
+  
+  
+  
+  .options111{
+    display: none;
+  }
+  
+  
+  .search-bar111:hover::placeholder{
+    color: white;
+    padding-left: 50px;
+  }
+  
+  .search111{
+    display: flex;
+    flex-wrap: nowrap;
+  
+    
+  }
+  
+  .searchicon111{
+  
+    font-size: 20px;
+    position: absolute;
+    right: 270px;
+    z-index: 1;
+    cursor: pointer;
+    padding-top: 2px;
+  
+  
+  
+  }
+  
+  .search-bar111{
+  
+    /* display: ; */
+    width: 0;
+    border: 0px solid #141414;
+    cursor: pointer;
+    height: 0;
+    background-color: transparent;
+  
+  }
+  
+  .search-bar1111{
+    /* visibility: hidden; */
+    display: none;
+  }
+  
+  
+  .search111:hover .searchicon111{
+  
+    width: 170px;
+    transition: all 0.5s ease-in;
+    /* margin-right: 20em; */
+    border: none;
+    color: white;
+    float: inline-end;
+  }
+  .search111:hover .search-bar111{
+    width: 250px;
+    transition: all 0s ease-in;
+    color: white;
+    background-color: transparent;
+    height: 30px;
+    z-index: 1000;
+    border: 1px solid white;
+    padding-left: 3px;
+  }
+  
+  /* .navbarsection21{
+  
+    display: flex;
+    background-color: #141414;
+  } */
+  
+  
+  
+  @media (min-width:960px) and (max-width:1027px){
+    
+    
+    .navbar-logo{
+  
+        width: 150px;
+    }
+  
+    .navbarSection2{
+  
+        width: 580px;
+        
+    }
+    
+    .NavbarSection3{
+  
+       
+        width: 290px;
+        
+    }
+    .ListItems{
+  
+        padding-left: 20px;
+    
+    }
+    .ListItems li{
+        font-size: 13px;
+        padding-left: 4px;
+    }
+    /* .options{
+        display: inline-block;
+        height: 30px;
+        margin-top: 23px;
+        border: none;
+        background-color: black;
+        color: #e50914;
+        font-weight: 600;
+        padding-left: 30px;
+    }
+    .options option{
+        color: white;
+    } */
+    
+    
+    /* .childrenpagelink1 span{
+        display: inline-block;
+        padding-top: 26px;
+        padding-left: 30px;
+    } */
+  
+    /* .fs-text-1{
+        display: inline;
+        font-size: 13px;
+    } */
+  
+    .notificationBell{
+  
+        padding-left: 20px;
+        padding-right: 10px;
+        
+    }
+    .notificationBell i{
+        /* font-size: 10px; */
+        width: 25px;
+    }
+  
+    
+    .searchicon{
+        position: absolute;
+        right: 250px;
+    }
+  
+    .search-bar:hover::placeholder{
+        font-size: 13px;
+        padding-left: 5px;
+    }
+    .logout{
+        font-size: 12px;
+        color: white;
+    }
+    
+    .search-bar::placeholder{
+        
+        text-align: center;
+    }
+    
+  }
+  
+  @media (min-width:801px) and (max-width:960px){
+    
+    .navbar-logo{
+  
+        width: 140px;
+    }
+  
+    .navbarSection2{
+  
+        width: 500px;
+        
+    }
+    
+    .NavbarSection3{
+  
+       
+        width: 200px;
+        
+    }
+    .ListItems{
+  
+        padding-left: 20px;
+    
+    }
+    .ListItems li{
+        font-size: 13px;
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    /* .options{
+        display: inline-block;
+        height: 30px;
+        margin-top: 23px;
+        border: none;
+        background-color: black;
+        color: #e50914;
+        font-weight: 600;
+        padding-left: 30px;
+    }
+    .options option{
+        color: white;
+    } */
+    
+    
+    /* .childrenpagelink1 span{
+        display: inline-block;
+        padding-top: 26px;
+        padding-left: 30px;
+    } */
+  
+    /* .fs-text-1{
+        display: inline;
+        font-size: 13px;
+    } */
+  
+    .search-bar{
+  
+        width: 200px;
+        height: 30px;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+  
+    .search:hover .search-bar{
+        transition: none;
+        width: 200px;
+    }
+    .searchicon{
+        /* position: absolute;
+        right: 250px; */
+        display: none;
+    }
+    .notificationBell{
+  
+        padding-left: 7px;
+        padding-right: 10px;
+        
+    }
+    .notificationBell i{
+        /* font-size: 10px; */
+        width: 25px;
+    }
+  
+    
+    .account2part2 span{
+        font-size: 15px;
+    }
+  
+    .search-bar:hover::placeholder{
+        font-size: 13px;
+        padding-left: 5px;
+    }
+    .logout{
+        font-size: 12px;
+        color: white;
+    }
+    
+    .search-bar::placeholder{
+        
+        text-align: center;
+    }
+    
+  }
+  
+  
+  @media (min-width:600px) and (max-width:800px){
+    
+    
+  .NavbarContainer{
+  
+    width: 1100px;
+  }
+    .navbar-logo{
+  
+        width: 150px;
+    }
+  
+    .navbarSection2{
+  
+        width: 500px;
+        
+    }
+    .options{
+        display: inline-block;
+        position: absolute;
+        top: 25px;
+        left: 180px;
+        height: 30px;
+        border: none;
+        background-color: black;
+        color: #e50914;
+        font-size: 20px;
+        width: 100px;
+    }
+    .options option{
+        color: white;
+        border: none;
+    }
+  
+    
+    .NavbarSection3{
+  
+       
+        width: 290px;
+        
+    }
+    /* .ListItems{
+  
+        padding-left: 20px;
+    
+    } */
+    .ListItems li{
+        /* padding-right: 10px;
+        font-size: 15px; */
+        display: none;
+    }
+    
+    .childrenpagelink span{
+        display: none;
+    }
+  
+    .childrenpagelink1 span{
+  
+        font-size: 16px;
+        padding-left: 130px;
+        padding-right: 20px;
+        padding-top: 30px;
+        color: white;
+        display: inline-block;
+    }
+    .notificationBell{
+  
+        /* padding-left: 20px;
+        padding-right: 10px; */
+        display: none;        
+    }
+    .notificationBell i{
+        /* font-size: 10px; */
+        width: 25px;
+    }
+  
+     .fs-text-1{
+        display: inline;
+        font-size: 13px;
+    } 
+  
+    /* .searchicon{
+        font-size: 25px;
+        padding-top: 0;
+    }
+  
+    .search-bar{
+       
+        height: 30px;
+        margin-top: 0;
+    
+        
+    } */
+  
+    /* .search-bar:hover::placeholder{
+        font-size: 13px;
+    } */
+  
+    .search{
+  
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        /* margin-left: 200px; */
+        border: none;
+        outline: none;
+        /* width: 250px; */
+        transition: none;
+        
+    }
+    .searchicon{
+        font-size: 19px;
+        display: none;
+    }
+    
+    .search-bar{
+        background-color: transparent;
+        /* color: black; */
+        border: 0.1px solid white;
+        
+        height: 30px;
+        color: white;
+        transition: none;
+        width: 200px;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        margin-right: 20px;
+        height: 30px;
+        
+    }
+  
+    .account2part1{
+        display: flex;
+        /* flex-direction: row-reverse; */
+        
+    }
+    .account2part1 img{
+        padding-right: 10px;
+    }
+    
+    /* .account2part1 img{
+        margin-left: 20px;
+    } */
+    .search-bar:hover{
+        
+        width: 200px;
+        padding-left: 0px;
+        padding-right:0px;
+        /* padding-top: 8px; */
+        top: 0;
+        /* visibility: initial; */
+        /* overflow: visible; */
+        /* transform: scaleX(0); */
+        /* border: 1px solid white; */
+        transition: none;
+    }
+    
+    /* .search:hover{ */
+        /* padding-right: 15em; */
+        /* margin-left: 15em; */
+    /* } */
+    .logout{
+        font-size: 18px;
+        color: white;
+        padding-top: 6px;
+    }
+  
+    .account2part1:after{
+        content: "";
+        position: absolute;
+        right: -16px;
+        top: 70%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: none;
+        border-color: none;
+    }
+    .account2part1:hover::after{
+    
+        border-color: none ;
+        margin-top: 0;
+    }
+    
+  }
+  
+  
+  
+  @media (min-width:360px) and (max-width:600px){
+    
+    
+    .NavbarContainer{
+    
+        width: 1050px;
+        height: 100px;
+    }
+  
+    .menucomponent{
+  
+        width: 40px;
+        /* border: 1px solid red; */
+        display: inline;
+        /* padding-left: 50px; */
+        /* padding-top: 10px; */
+        font-size: 40px;
+        height: 30px;
+        /* padding-left: 30px; */
+  
+  
+        
+    }
+    .menucomponent::after{
+        transition: all 0.5s ease-in;
+        width: 400px;
+    }
+  
+    .menucomponent button{
+  
+        border: none;
+        background-color: transparent;
+        width: 100px;
+        color: white;
+        font-size: 45px;
+        margin-top: 1px;
+        
+    }
+  
+    
+  /*     
+    .menucomponent menu{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    } */
+  
+    .menuList1{
+  
+        width: 340px;
+        /* border: 1px solid green; */
+        margin-top: 20px;
+        height: 200px;
+        /* margin-right: 300em; */
+        background-color: black;
+        padding-bottom: 20px;
+        
+    }
+  
+    /* .menuList1{
+  
+        color: #808080;
+        list-style-type: none;
+        font-size: 28px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  
+        
+    /* } */
+    .menuList1 span{
+        color: #808080;
+        font-size: 21px;
+        padding-left: 10px;
+        /* position: absolute;
+        top: 5em; */
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        line-height: 1px;
+        
+  
+    }
+  
+    .menuList1 .signoutnetflix{
+  
+        color: #808080;
+        font-size: 28px;
+        padding-left: 30px;
+    }
+  
+  
+    .menuList1 img{
+        width: 50px;
+        margin-top: 10px;
+        padding-left: 30px;
+        
+    }
+  
+    .menuList2{
+  
+        margin-top: 1px;
+        /* border: 1px solid white; */
+        width: 300px;
+        color: #808080;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: black;
+        height: 100%;
+        overflow: scroll;
+    }
+  
+    /* .menu-mobile{
+  
+        
+    } */
+    .menuList2 li{
+        font-size: 35px;
+        line-height: 80px;
+        list-style-type: none;
+        font-weight: 600;
+        border-top: none;
+        /* overflow: scroll; */
+    
+    }
+  
+    .menuList2 li a{
+  
+        text-decoration: none;
+        color: #808080;
+        cursor: pointer;
+    }
+  
+    .menuList2 li a:hover{
+        color: white;
+        border-right: none;
+    border-bottom: none;
+    border-left: #e50914;
+    border-width: 2px;
+    }
+        .navbar-logo{
+    
+            width: 600px;
+            margin-right: 0;
+            
+        }
+        
+    
+  
+        .NavbarSection{
+            display: flex;
+        }
+        .navbarSection2{
+    
+            display: none;
+            
+        }
+        
+        .NavbarSection3{
+    
+           
+            width: 180px;
+            
+        }
+       
+        .ListItems li{
+            display: none;
+        }
+       
+        .option{
+            display: none;
+        }
+        .childrenpagelink span{
+            display: none;
+        }
+    
+     
+  
+        .notificationBell{
+            display: none;
+        }
+    
+        .searchicon{
+            display: none;
+        }
+    
+        .search-bar{
+           
+            /* height: 40px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            width: 200px;
+            background-color: transparent;
+            border: 1px solid white;
+            margin-right: 30px; */
+            /* border-radius: 5px; */
+  
+            display: none;
+  
+            
+        }
+        
+        .search-bar1{
+            display: inline-block;
+            width: 200px;
+            height: 40px;
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 5px;
+            margin-bottom: 2px;
+            /* margin-left: 200px; */
+            
+  
+        }
+  
+        .search-bar1::placeholder{
+  
+            font-size: 25px;
+        }
+        /* .search:hover .search-bar{
+            font-size: 20px;
+            transition: none;
+            width: 200px;
+            height: 40px;
+            margin-top: 0;
+            border: 1px solid white;
+            /* border-radius: 4px; */
+            
+        /* }  */
+  
+        /* .search-bar:hover{
+            border-radius: 4px;
+            border: 1ps solid white;
+        }
+        .search-bar:hover::placeholder{
+            font-size: 18px;
+            padding-left: 10px;
+        } */
+        .logout{
+            font-size: 18px;
+            color: white;
+            padding-top: 6px;
+        }
+        
+        .account2part1{
+            display: none;
+        }
+        
+    }
+  
+  
+    
+  
+    @media (max-width:360px){
+    
+    
+        /* .NavbarContainer{
+        
+            width: 1050px;
+        }
+            .navbar-logo{
+        
+                width: 150px;
+            }
+        
+            .navbarSection2{
+        
+                width: 580px;
+                
+            }
+            
+            .NavbarSection3{
+        
+               
+                width: 200px;
+                
+            }
+            
+            .ListItems li{
+               display: none;
+            }
+            .options{
+                display: inline-block;
+                width: 150px;
+                font-size: 20px;
+                border: none;
+                background-color: black;
+                color: #e50914;
+                margin-top: 20px;
+            }
+            .childrenpagelink span{
+                display: none;
+            }
+            .childrenpagelink1 span{
+                display: inline-block;
+                padding-top: 28px;
+            }
+        
+            .notificationBell{
+        
+                padding-left: 20px;
+                padding-right: 10px;
+                
+            }
+            .notificationBell i{ */
+                /* font-size: 10px; */
+                /* width: 25px;
+            }
+        
+            .searchicon{
+                display: none;
+            }
+        
+            .search-bar{
+               
+                height: 30px;
+                margin-top: 0;
+                width: 200px;
+            
+                
+            }
+        
+            .search-bar:hover::placeholder{
+                font-size: 20px;
+            }
+            .logout{
+                font-size: 20px;
+                color: white;
+                padding-top: 6px; 
+            }*/
+  
+            
+    .NavbarContainer{
+    
+        width: 1050px;
+        height: 150px;
+    }
+  
+    .netflix-svgNav{
+  
+        width: 300px;
+    }
+  
+    .menucomponent{
+  
+        width: 40px;
+        /* border: 1px solid red; */
+        display: inline;
+        /* padding-left: 50px; */
+        /* padding-top: 10px; */
+        font-size: 40px;
+        height: 30px;
+        /* padding-left: 30px; */
+        
+    }
+    .menucomponent::after{
+        transition: all 0.5s ease-in;
+        width: 400px;
+    }
+  
+    .menucomponent button{
+  
+        border: none;
+        background-color: transparent;
+        width: 100px;
+        color: white;
+        font-size: 45px;
+        margin-top: 1px;
+        
+    }
+  
+    
+  /*     
+    .menucomponent menu{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    } */
+  
+    .menuList1{
+  
+        width: 1051px;
+        /* border: 1px solid green; */
+        margin-top: 20px;
+        height: 200px;
+        /* margin-right: 300em; */
+        background-color: black;
+        padding-bottom: 20px;
+        
+    }
+  
+    /* .menuList1{
+  
+        color: #808080;
+        list-style-type: none;
+        font-size: 28px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  
+        
+    /* } */
+    .menuList1 span{
+        color: #808080;
+        font-size: 61px;
+        padding-left: 10px;
+        /* position: absolute;
+        top: 5em; */
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        line-height: 1px;
+  
+    }
+  
+    .menuList1 .signoutnetflix{
+  
+        color: #808080;
+        font-size: 62px;
+        padding-left: 30px;
+    }
+  
+  
+    .menuList1 img{
+        width: 90px;
+        margin-top: 10px;
+        padding-left: 30px;
+        padding-top: 40px;
+        
+    }
+  
+    .menuList2{
+  
+        margin-top: 1px;
+        /* border: 1px solid white; */
+        width: 1000px;
+        color: #808080;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: black;
+        height: 500vh;
+    }
+  
+    .menuList2 li{
+        font-size: 50px;
+        line-height: 150px;
+        list-style-type: none;
+        font-weight: 600;
+    }
+  
+    .menuList2 a{
+  
+        text-decoration: none;
+        color: #808080;
+        cursor: pointer;
+    }
+        .navbar-logo{
+    
+            width: 600px;
+            margin-right: 0;
+            
+        }
+        
+    
+  
+        .NavbarSection{
+            display: flex;
+        }
+        .navbarSection2{
+    
+            display: none;
+            
+        }
+        
+        .NavbarSection3{
+    
+           
+            width: 180px;
+            
+        }
+       
+        .ListItems li{
+            display: none;
+        }
+       
+        .option{
+            display: none;
+        }
+        .childrenpagelink span{
+            display: none;
+        }
+    
+     
+  
+        .notificationBell{
+            display: none;
+        }
+    
+        .searchicon{
+            display: none;
+        }
+    
+        .search-bar{
+           
+            /* height: 40px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            width: 200px;
+            background-color: transparent;
+            border: 1px solid white;
+            margin-right: 30px; */
+            /* border-radius: 5px; */
+  
+            display: none;
+  
+            
+        }
+        
+        .search-bar1{
+            display: inline-block;
+            width: 200px;
+            height: 40px;
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 5px;
+            margin-bottom: 2px;
+            /* margin-left: 200px; */
+            margin-right: 100px;
+            
+  
+        }
+  
+        .search-bar1::placeholder{
+  
+            font-size: 25px;
+        }
+        /* .search:hover .search-bar{
+            font-size: 20px;
+            transition: none;
+            width: 200px;
+            height: 40px;
+            margin-top: 0;
+            border: 1px solid white;
+            /* border-radius: 4px; */
+            
+        /* }  */
+  
+        /* .search-bar:hover{
+            border-radius: 4px;
+            border: 1ps solid white;
+        }
+        .search-bar:hover::placeholder{
+            font-size: 18px;
+            padding-left: 10px;
+        } */
+        .logout{
+            font-size: 18px;
+            color: white;
+            padding-top: 6px;
+        }
+        
+        .account2part1{
+            display: none;
+        }
+       
+            
+        }
+    
+    

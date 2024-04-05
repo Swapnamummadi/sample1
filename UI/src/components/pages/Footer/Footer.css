@@ -1,0 +1,146 @@
+
+.footer{
+
+    display: block;
+    background-color: rgba(0,0,0);
+    color: white;
+   margin-top: 10px;
+   padding-top: 60px;
+   height: 50vh;
+   padding-left: 7em;
+}
+
+.footer1section{
+
+    font-size: 15px;
+    padding-left: 37px;
+}
+.footer1section a{
+   
+    color: white;
+}
+
+.footer2section .FooterSectiongrid{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 80%;
+    
+}
+.FooterSectiongrid li{
+
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 35px;
+}
+.FooterSectiongrid li a{
+
+    color: white;
+    
+}
+
+ 
+.HeaderPart2{
+    display: flex;
+    gap:15px;
+}
+#language{
+    color:white;
+    background-color: rgba(0,0,0,0.3);
+    position:relative;
+    margin-left: 35px;
+}
+
+#language:active{
+
+    outline: white;
+}
+#language:focus{
+
+    outline: white;
+    border: white;
+}
+.lanSymb{
+
+    /* font-weight: 30px; */
+    padding-top:5px;
+    
+    position:absolute;
+    left:6px;
+    z-index:1;
+    font-size:20px;
+    
+}
+.selectLang{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.097);
+    padding:0px 24px;
+    width:126px;
+    height:30px;
+    border:0.5px solid #666666;
+    border-radius: 4px;
+    font-size: 16.5px;
+    font-weight: 500;
+    text-align: center;
+}
+.selectLang option{
+
+    background-color: white;
+    color: black;
+    
+}
+
+#last{
+    margin-left: 36px;
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+@media (min-width:960px) and (max-width:1023px){
+
+ .footer{
+    padding-left: 10px;
+ }   
+
+ .footer2section .FooterSectiongrid{
+
+
+    width: 100%;
+ }
+
+ 
+}
+
+@media (min-width:300px) and (max-width:960px){
+
+
+    .footer{
+
+        
+       padding-top: 20px;
+       height: 80vh;
+       padding-left: 0;
+    }
+    .footer2section .FooterSectiongrid{
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+     }
+
+}
+
+@media (max-width:300px){
+    .footer{
+
+        height: 100vh;
+        padding-left: 0;
+    }
+
+    .footer2section .FooterSectiongrid{
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+     }
+}

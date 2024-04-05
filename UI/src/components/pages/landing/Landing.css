@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "Noto Sans", sans-serif;
+  background-color: #141414;
+}
+.FirstSectionBg {
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-position: right;
+  overflow: hidden;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5e16108c-fd30-46de-9bb8-0b4e1bbbc509/29d8d7d7-83cc-4b5f-aa9b-6fd4f68bfaa6/IN-en-20240205-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+
+.content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  
+}
+.contentPart1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 900;
+  padding-bottom: 10px;
+ 
+  
+}
+.contentPart2 {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+}
+.OuterSection {
+
+  background-image: Linear-gradient(to top,rgba(0, 0, 0, 0.8) 0,rgba(0, 0, 0, 0.5) 60%,rgba(0, 0, 0, 0.8) 100%);
+  width: 100%;
+  height: 100vh;
+}
+.OuterSection-inside {
+  /* border:2px solid red; */
+  text-align: center;
+  margin-top: 210px;
+}
+.OuterHeader {
+  padding-top: 3px;
+}
+
+
+@media screen and (max-width:1067px) {
+  
+  .OuterSection{
+
+    height: 120vh;
+  }
+  .FirstSectionBg{
+    height: 120vh;
+  }
+
+  
+  
+}
+
+@media screen and (max-width: 960px) {
+  .OuterSection {
+    height: 90vh;
+  }
+  .FirstSectionBg {
+    height: 90vh;
+  }
+  .OuterSection-inside {
+    margin-top: 100px;
+  }
+  .contentPart1 {
+    font-size: 25px;
+  }
+  .contentPart2 {
+    font-size: 20px;
+  }
+  .OuterHeader {
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width:780px) {
+  
+  .OuterSection{
+    height: 80vh;
+  }
+  .FirstSectionBg{
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .OuterSection {
+    height: 70vh;
+  }
+  .FirstSectionBg {
+    height: 70vh;
+  }
+  .OuterSection-inside {
+    margin-top: 30px;
+  }
+  .contentPart1 {
+    font-size: 33px;
+  }
+  .contentPart2 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:480px) {
+  
+  .OuterSection{
+
+    height: 60vh;
+  }
+  .FirstSectionBg {
+    height: 60vh;
+  }
+  .SecondSection{
+    width: 100%;
+  }
+  .SecondSectionImage img{
+    width: 100%;
+  }
+  .SecondSectionImage video{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .OuterSection {
+    height: 70vh;
+  }
+  .FirstSectionBg {
+    height: 70vh;
+  }
+  .OuterSection-inside {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width:300px){
+  .OuterSection{
+    height: 90vh;
+  }
+  .FirstSectionBg{
+    height: 90vh;
+  }
+}

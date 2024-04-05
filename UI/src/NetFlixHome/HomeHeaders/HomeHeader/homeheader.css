@@ -1,0 +1,435 @@
+
+*{
+    text-decoration: none;
+    color: white;
+}
+.NetflixNav{
+  position: fixed;
+  width: 100%;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #141414;
+  z-index: 1;
+}
+
+.Netflix-component svg{
+    width: 120px;
+    height: 25px;
+    fill: #e50914;
+    margin-top: 20px;
+}
+.Netflix-component{
+    display: flex;
+    flex-wrap: wrap;
+    width: 460px;
+    justify-content: space-between;
+}
+.Netflix-component ul{
+    display: flex;
+    gap: 20px;
+}
+.Netflix-component ul li{
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.Netflix-component2{
+
+    padding-right: 10em;
+}
+.Netflix-component2 ul{
+    display: flex;
+    gap: 20px;
+}
+.Netflix-component2 ul li{
+    font-size: 18px;
+    font-weight: 400;
+}
+.img-changes{
+    border-radius: 4px;
+}
+.Netflix-component ul li:hover{
+    text-decoration: none;
+}
+
+.Netflix-component2 ul li:first-child{
+  font-size: 25px;
+}
+.Netflix-component2 ul li:nth-child(3){
+  font-size: 25px;
+}
+.search-input-container {
+    position: relative;
+    display: inline-block;
+    width: 0px; 
+    transition: width 0.5s ease; 
+  }
+  .search-input-container.expanded {
+    width: 100%; 
+  }
+  .search-input-container input {
+    padding-right: 30px; 
+    height: 35px;
+    background-color: black;
+    padding-left: 40px;
+    border: 1px solid #fff;
+  }
+  .search-icon {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black; 
+    min-width: 160px; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+    z-index: 1;
+    right: -40px;
+    top: 100%;  
+  }
+  .dropdown-content .signout {
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid gray;
+  }
+  .mailname{
+    color: #fff;
+    padding: 8px 16px;
+  }
+  .Netflix-component2 ul li{
+    list-style-type: none;
+  }
+  .Netflix-component2 ul li:hover .dropdown-content {
+    display: block;
+    
+  }
+  .NetflixNav.not-scrolling {
+    background-color: transparent;
+  }
+  
+  .NetflixNav.scrolling {
+    background-color: #141414;
+    z-index: 1;
+    height: 4em;
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown:after {
+    content: "";
+    position: absolute;
+    right: -16px;
+    top: 70%;
+    margin-top: -5px; 
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+  
+ 
+.dropdown:hover:after {
+    border-color: transparent transparent #fff transparent;
+    margin-top: 0px; 
+}
+  
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+  
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.browse-dropdown .browse,.browse2{
+  display: none;
+}
+.fabars-nav {
+  display: none; 
+  cursor: pointer;
+  
+}
+#search2,#mail2,#img2{
+  display: none;
+}
+
+.linksbrowse li{
+    list-style-type: none;
+}
+
+.useraccountsvg{
+
+  font-size: 30px;
+  fill: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  
+}
+
+.useraccountdetails:first-child{
+  padding-top: 10px;
+}
+
+
+.useraccountdetails{
+
+  font-size: 18px;
+}
+
+.useraccountdetails span{
+  font-size: 18px;
+  padding-left: 20px;
+
+}
+
+.useraccountdetails span:hover{
+  
+  text-decoration: underline;
+}
+@media (max-width:1067px) {
+  .NetflixNav{
+    padding: 10px 60px 10px 0px;
+  }
+  .dropdown-content{
+    min-width: 90px;
+    font-size: 12px;
+  }
+  .dropdown-content a{
+    padding: 8px 0px;
+    text-align: center;
+  }
+}
+@media (max-width:960px) {
+
+
+  .Netflix-component ul li{
+    display: none;
+  }
+  .Netflix-component2{
+    padding-right: 3em;
+  }
+  .browse-dropdown{
+    padding-left: -10em;
+    /* padding-right: 2rem; */
+  }
+  .browse-dropdown .browse{
+    color: #e50914;
+    position: relative;
+    display: inline-block;
+    height: 2em;
+    width: 4em;
+    border: none;
+    
+    /* margin-right: 10px; */
+  }
+  .browse-dropdown .browse2{
+    display: block;
+    padding-left: 21px;
+  }
+  .children-Netflix-component2{
+    display: none;
+  }
+ 
+  .Netflix-component{
+    width: 378px;
+    
+  }
+  .Browse-content {
+    display: none;
+    position: absolute;
+    background-color: black; 
+    min-width: 140px; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .browse:hover .Browse-content {
+    display: flex;
+    flex-direction: column;
+    margin-top:20px ;
+    padding: 10px;
+  }
+  /* .browse {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    height: 2em;
+    width: 4em; */
+    /* float: left; */
+  /* } */
+  .browse:after {
+    content: "";
+    position: absolute;
+    right: -16px; 
+    top: 70%;
+    margin-top: -5px; 
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e50914 transparent transparent transparent; 
+  }
+  .browse:hover:after {
+    border-color: transparent transparent #e50914 transparent;
+    margin-top: -10px; 
+  }
+  .Browse-link{
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .Browse-link:hover{
+    background-color: gray;
+  }
+  .NetflixNav{
+    padding: 10px 60px 10px 0px;
+  }
+  
+
+}
+@media (max-width:850px){
+  #search-icon{
+    display: none;
+  }
+  #bell-icon{
+    display: none;
+  }
+  #img-icon{
+    display: none;
+  }
+  #search2,#mail2,#img2{
+    display: block;
+  }
+  .Netflix-component2 ul{
+    display: flex;
+    gap: 10px;
+  }
+  .NetflixNav{
+    padding: 10px 10px 10px 0px;
+  }
+  .searchbar{
+    background-color: #141414;
+    color: white;
+    border: 1px solid #999999;
+    width: 180px;
+    height: 15px;
+    padding: 10px;
+  }
+  .searchbar::placeholder{
+    color: gray;
+    font-size: 18px;
+  }
+}
+@media (max-width:756px){
+ 
+    .Netflix-component svg{
+        width: 80px;
+       
+    }
+
+    .searchbar{
+        background-color: #141414;
+        width: 100px;
+      }
+  .fabars-nav {
+    display: block !important; 
+    cursor: pointer;
+  }
+  
+  .mobile-menu-icon{
+   margin-top: 18px;
+   margin-left: 10px;
+  }
+  .mobile-menu-icon i{
+    font-size: 25px;
+  }
+  .browse-dropdown .browse {
+    display: none;
+  }
+  .browse-dropdown .browse2 {
+    display: none;
+  }
+ 
+  .mobile-menu {
+    position: absolute;
+    top: 70px;
+    left: 0; 
+    width: 300px; 
+    height: 500%;
+    background: #141414; 
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+    z-index: -1;
+   
+  }
+
+  .nthchild{
+    font-size: 20px;
+  }
+  .mobile-menu p{
+    padding-left: 0;
+  }
+  .mobile-menu p:hover{
+
+    text-decoration: underline;
+
+  }
+
+  .mobile-menuchild{
+    margin-left: -3em;
+  }
+  
+
+  .mobile-menu .linknav-bar {
+    display: block;
+    padding: 10px 0px 0px 15px;
+    color: #808080; 
+    font-size: 16px;
+    font-weight: bolder;
+
+  }
+
+  .mobile-menu .linknav-bar:hover{
+    text-decoration: underline;
+  }
+  
+  .mobile-menu-visible .mobile-menu {
+   
+    transform: translateX(1%); 
+    left: 0;
+
+  }
+
+  .mobile-menu span{
+    font-size: 18px;
+  }
+
+  /* .mobile-menu span:hover{
+    text-decoration: underline;
+  } */
+
+  #mail2,#img2{
+    display: none;
+  }
+  .profile-bar{
+    display: flex;
+    gap: 10px;
+  }
+  .img-changes{
+    border-radius: 0px;
+    height: 50px;
+  }
+  
+}
+

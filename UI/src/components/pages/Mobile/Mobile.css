@@ -1,0 +1,513 @@
+
+.ThirdSection {
+    margin-top: 10px;
+    background-color: black;
+    width: 100%;
+    display: grid;
+    height: 84vh;
+    place-items: center;
+  }
+
+  .ThirdSectionDiv {
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    height: 60vh;
+  }
+
+  .ThirdSectionContent {
+    width: 100%;
+  }
+  .right_content {
+    margin-top: 40px;
+  }
+  
+  .Section3contentPart1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+  .Section3contentPart2 {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  
+  .ThirdSectionImage { 
+    /* border:2px solid red; */
+    width: 100%;
+    position: relative;
+    overflow: clip;
+    z-index: 1;
+  }
+  
+  .image1 {
+    width: 95%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  
+.ThirdSectionOverflowDiv {
+    background-color: black;
+    width: 55%;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 0.5fr;
+    padding: 5px 10px;
+    border: 2px solid #5a5a5a;
+    border-radius: 12px;
+    z-index: 1;
+    top: 350px;
+    left: 120px;
+  }
+
+  .image3{
+    width: 60px;
+    padding-top: 5px;
+    padding-left: 4px;
+  }
+
+  .Content3 {
+  
+
+    margin-top: 25px;
+    
+  }
+  .Content3Part1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 600; 
+    /* padding-top: 30px; */
+  
+  }
+  .Content3Part2 {
+    color: #005aeb;
+    font-size: 15px;
+  }
+
+  .gif {
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    margin-top: 20px;
+  }
+
+
+  @media (min-width:960px) and (max-width:1335px){
+
+     .ThirdSection{
+        width: 100%;
+     }
+    .ThirdSectionDiv {
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        height: 60vh;
+      }
+
+  .image1 {
+    width: 100%;
+    height: 90%;
+    
+   
+  }
+
+  
+.ThirdSectionOverflowDiv {
+    background-color: black;
+    width: 65%;
+    height: 80px;
+    
+    top: 60%;
+    left: 85px;
+  }
+
+  .image3{
+    width: 50px;
+    padding-top: 5px;
+    padding-left: 4px;
+  }
+
+  .Content3 {
+  
+
+    margin-top: 20px;
+    
+  }
+  .Content3Part1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 600; 
+    /* padding-top: 30px; */
+  
+  }
+  .Content3Part2 {
+    color: #005aeb;
+    font-size: 15px;
+  }
+
+  .gif {
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    margin-top: 10px;
+  }
+
+  }
+
+
+  @media (min-width:750px) and (max-width:959px){
+
+    .ThirdSection{
+        /* height: 0vh; */
+        height: 150vh;
+    }
+    .ThirdSectionDiv {
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: 130vh;
+      }
+
+  .image1 {
+    width: 70%;
+    height: 80%;
+   margin-left: 7em;
+  }
+
+  
+.ThirdSectionOverflowDiv {
+    background-color: black;
+    width: 45%;
+    height: 80px;
+    
+    top: 60%;
+    left: 26%;
+  }
+
+  .ThirdSectionContent{
+    text-align: center;
+  }
+  .ThirdSectionContent .reverse{
+
+    order: 1;
+    
+  }
+
+  .Section3contentPart1{
+    font-size: 30px;
+    
+  }
+  .Section3contentPart2{
+    font-size: 17px;
+    
+  }
+  .ThirdSectionImage{
+    order: 2;
+  }
+  .image3{
+    width: 50px;
+    padding-top: 5px;
+    padding-left: 4px;
+    
+  }
+
+  .Content3 {
+  
+
+    margin-top: 20px;
+    
+    
+    
+  }
+  .Content3Part1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 600; 
+    /* padding-top: 30px; */
+  
+  }
+  .Content3Part2 {
+    color: #005aeb;
+    font-size: 15px;
+  }
+
+  .gif {
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    margin-top: 10px;
+  } 
+  }
+
+
+  @media (min-width:500px) and (max-width:750px){
+
+    .ThirdSection{
+        /* height: 0vh; */
+        height: 150vh;
+    }
+    .ThirdSectionDiv {
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: 120vh;
+      }
+
+  .image1 {
+    width: 85%;
+    height: 85%;
+   margin-left: 3em;
+  }
+
+  
+.ThirdSectionOverflowDiv {
+    background-color: black;
+    width: 55%;
+    height: 60px;
+    
+    top: 65%;
+    left: 21%;
+  }
+
+  .ThirdSectionContent{
+    text-align: center;
+  }
+  .ThirdSectionContent .reverse{
+
+    order: 1;
+    
+  }
+
+  .Section3contentPart1{
+    font-size: 30px;
+    
+  }
+  .Section3contentPart2{
+    font-size: 17px;
+    margin:0 10px;
+  }
+  .ThirdSectionImage{
+    order: 2;
+  }
+  .image3{
+    width: 40px;
+    padding-top: 4px;
+    padding-left: 4px;
+    
+  }
+
+  .Content3 {
+  
+
+    margin-top: 5px;
+    
+    
+    
+  }
+  .Content3Part1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 600; 
+    /* padding-top: 30px; */
+  
+  }
+  .Content3Part2 {
+    color: #005aeb;
+    font-size: 15px;
+  }
+
+  .gif {
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    margin-top: 5px;
+  } 
+  }
+
+
+  @media (min-width:360px) and (max-width:500px){
+
+    .ThirdSection{
+        /* height: 0vh; */
+        height: 120vh;
+    }
+    .ThirdSectionDiv {
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: 100vh;
+      }
+
+  .image1 {
+    width: 80%;
+    height: 80%;
+   margin-left: 2em;
+  }
+
+  
+.ThirdSectionOverflowDiv {
+    background-color: black;
+    width: 65%;
+    height: 50px;
+    
+    top: 55%;
+    left: 14%;
+  }
+
+  .ThirdSectionContent{
+    text-align: center;
+  }
+  .ThirdSectionContent .reverse{
+
+    order: 1;
+    
+  }
+
+  .Section3contentPart1{
+    font-size: 30px;
+    
+  }
+  .Section3contentPart2{
+    font-size: 17px;
+    margin:0 10px;
+  }
+  .ThirdSectionImage{
+    order: 2;
+  }
+  .image3{
+    width: 30px;
+    padding-top: 5px;
+    padding-left: 4px;
+    
+  }
+
+  .Content3 {
+  
+
+    margin-top: 5px;
+    
+    
+    
+  }
+  .Content3Part1 {
+    color: white;
+    font-size: 10px;
+    font-weight: 600; 
+    /* padding-top: 30px; */
+  
+  }
+  .Content3Part2 {
+    color: #005aeb;
+    font-size: 10px;
+  }
+
+  .gif {
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    margin-top: 5px;
+  } 
+  }
+
+
+  @media (max-width:360px){
+
+    .ThirdSection{
+        /* height: 0vh; */
+        width: 100%;
+        height: 100vh;
+    }
+    .ThirdSectionDiv {
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: 80vh;
+      }
+
+  .image1 {
+    width: 50%;
+    height: 70%;
+   margin-left: 4em;
+  }
+
+  
+.ThirdSectionOverflowDiv {
+    background-color: black;
+    width: 85%;
+    height: 50px;
+    
+    top: 50%;
+    left: 4%;
+  }
+
+  .ThirdSectionContent{
+    text-align: center;
+  }
+  .ThirdSectionContent .reverse{
+
+    order: 1;
+    
+  }
+
+  .Section3contentPart1{
+    font-size: 30px;
+    
+  }
+  .Section3contentPart2{
+    font-size: 17px;
+    margin:0 10px;
+  }
+  .ThirdSectionImage{
+    order: 2;
+  }
+  .image3{
+    width: 30px;
+    padding-top: 5px;
+    padding-left: 4px;
+    
+  }
+
+  .Content3 {
+  
+
+    margin-top: 5px;
+    
+    
+    
+  }
+  .Content3Part1 {
+    color: white;
+    font-size: 10px;
+    font-weight: 600; 
+    /* padding-top: 30px; */
+  
+  }
+  .Content3Part2 {
+    color: #005aeb;
+    font-size: 10px;
+  }
+
+  .gif {
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    margin-top: 5px;
+  } 
+  }
